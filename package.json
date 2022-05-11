@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MoisesMendozaS01/BackEnd-Semana_4-FizzBuzz#readme",
   "devDependencies": {
-    "jest": "^26.0.0"
+    "jest": "^28.1.0"
   }
 }
