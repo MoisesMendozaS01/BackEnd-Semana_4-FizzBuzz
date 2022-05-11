@@ -17,7 +17,7 @@ describe('Unit Test for FizzbuzzzService',()=>{
         const explorer15 = {name: "Explorer15", score: 15}
         const ExplorerTrick4 = FizzbuzzService.applyValidationInExplorer(explorer15)
 
-        expect(ExplorerTrick.trick).toBe(1)
+        expect(ExplorerTrick.trick).toBe(2)
         expect(ExplorerTrick2.trick).toBe("FIZZ")
         expect(ExplorerTrick3.trick).toBe("BUZZ")
         expect(ExplorerTrick4.trick).toBe("FIZZBUZZ")
