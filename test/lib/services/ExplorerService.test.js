@@ -15,4 +15,10 @@ describe('Unit Test for ExplorerService',()=>{
         expect(ExplorersInNode).toBe(10)
         expect(ExplorersInJava).toBe(5)
     })
+    test('Parte 3: get explorers username by mission',()=>{
+        const ExplorersInNode = ExplorerService.getExplorersUsernamesByMission(explorers, "node")
+        const ExplorersInJava = ExplorerService.getExplorersUsernamesByMission(explorers, "java")
+        expect(ExplorersInNode).not.toBeUndefined()
+        expect(ExplorersInJava).not.toBeUndefined()
+    })
 })
